@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo">
+              <a href="">
+                <img src="images/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <nav>
+              <!-- ul.menu>li*4>a -->
+              <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li class="products">
+                  <a class="menu-products" href="">Products</a>
+                  <ul class="submenu">
+                    <li><a href="">Lorem ipsum dolor</a></li>
+                    <li><a href="">Sit amet</a></li>
+                    <li><a href="">Consectetur adipisicing</a></li>
+                    <li><a href="">Tempor incididant</a></li>
+                    <li><a href="">Dolore magna aliqua</a></li>
+                    <li><a href="">Ut enim ad minim veniam</a></li>
+                    <li><a href="">Quis nostrud</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Shipping</a></li>
+                <li><a href="">Payment</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <div class="for-search-button">
+              <div class="search">
+                <input
+                  class="search-input"
+                  type="search"
+                  name=""
+                  id=""
+                  placeholder="search"
+                />
+                <button class="search-button" type="submit">
+                  <img
+                    src="images/search.png"
+                    alt=""
+                    width="14px"
+                    height="12px"
+                  />
+                </button>
+              </div>
+              <button class="basket" type="submit">
+                <img
+                  src="images/basket.png"
+                  alt=""
+                  width="18px"
+                  height="20px"
+                />
+                <span class="in-basket">4</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="slider"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="filter">
+              <img src="images/filter.jpg" alt="" />
+            </div>
+            <!-- <div class="filter"></div> -->
+          </div>
+          <div class="col-9">
+            <div class="breadcrumbs">
+              Home page > Products > Laptops and Tablets
+            </div>
+            <div class="title-sort">
+              <div class="title">Leptops and Tablets</div>
+              <div class="for-sort">
+                <div class="sort-choice">sort by price</div>
+                <ul class="sort-list">
+                  <!-- <li><a href="">sort by price</a></li> -->
+                  <li><a href="">sort by date</a></li>
+                  <li><a href="">sort by popularity</a></li>
+                  <li><a href="">sort by name</a></li>
+                </ul>
+              </div>
+              <!-- <div class="sort">
+                <select name="eye-color">
+                  <option value="green" selected>sort by price</option>
+                  <option value="blue">sort by name</option>
+                  <option value="black">sort by date</option>
+                  <option value="gray">sort by popularity</option>
+                </select>
+              </div>               -->
+            </div>
+            <div>
+              <ul class="content">
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-1.png" alt="" />
+                      <div class="diag1"></div>
+                      <div class="diag2"></div>
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#1 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$599</div>
+                      <div class="price-cent">25</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-2.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="heart-white"></div>
+                    </div>
+                    <div class="tovar-title">#2 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$1250</div>
+                      <div class="price-cent">99</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-3.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#3 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$399</div>
+                      <div class="price-cent">50</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-4.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#4 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$599</div>
+                      <div class="price-cent">25</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-5.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#5 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$1250</div>
+                      <div class="price-cent">99</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-6.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#6 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$399</div>
+                      <div class="price-cent">50</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-1.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#1 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$599</div>
+                      <div class="price-cent">25</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-1.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#1 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$599</div>
+                      <div class="price-cent">25</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="tovar">
+                    <div class="for-image">
+                      <img class="tovar-img" src="images/tovar-1.png" alt="" />
+                      <div class="for-box"></div>
+                      <div class="for-heart"></div>
+                    </div>
+                    <div class="tovar-title">#1 Device Name</div>
+                    <div class="tovar-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="tovar-text-2">
+                      <span class="bold-text">TYPE:</span> Laptop
+                    </div>
+                    <div class="tovar-text-3">
+                      <span class="bold-text">SCREEN SIZE:</span> 7 inches
+                    </div>
+                    <div class="tovar-text-4">
+                      <span class="bold-text">RAM:</span> 1GB
+                    </div>
+                    <div class="price">
+                      <div class="price-dol">$599</div>
+                      <div class="price-cent">25</div>
+                    </div>
+                    <div class="details">MORE DETAILS</div>
+                    <div class="add-cart">ADD TO CART</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="more">Load more ...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">© Copyright 2017</footer>
+  </body>
+</html>
