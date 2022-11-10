@@ -209,11 +209,7 @@ li:hover > a {
   background-position: 50% 50%;
 }
 
-/* .filter{
-  
-  display: flex;
-  
-} */
+
 
 .breadcrumbs {
   font-size: 14px;
@@ -431,7 +427,7 @@ div.for-sort:hover > ul {
 }
 
 .details,
-.add-cart {
+.add-cart, .submit {
   border: 1px solid white;
   color: white;
   background-color: #2c71b8;
@@ -470,4 +466,66 @@ div.for-sort:hover > ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.filter{
+  /* display: flex; */
+  padding-top: 30px;  
+  padding-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+label::before{
+  content: "";
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;  
+  margin-right: 12px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label::before{
+  background-color: white;
+}
+
+.unit{
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: white;
+  margin-bottom: 22px;
+  
+}
+
+.text-type, .text-color, .text-ram{
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-left: 30px;
+}
+
+.text-color, .text-ram{
+  margin-top: 63px;
+}
+
+.more-options{  
+  display: flex;
+  margin-top: 30px;
+  justify-content:center ;
+  padding-left: 0;  
+}
+
+.more-options a{  
+  font-size: 21px;
+  color: white;  
+  text-decoration: none;
+}
+
+.submit{
+  margin-bottom: 0px;
 }
