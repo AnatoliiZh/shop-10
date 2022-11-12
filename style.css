@@ -306,6 +306,12 @@ div.for-sort:hover > ul {
   /* position: relative; */
 }
 
+.tovar:hover{  
+  box-shadow: 0 15px 20px rgb(0 0 0 / 40%);
+  border-radius: 1px;
+}
+
+
 .tovar:hover .add-cart {
   background-color: #1e568d;
 }
